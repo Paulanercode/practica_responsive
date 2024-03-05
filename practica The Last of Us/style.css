@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=League+Gothic&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vs;
+  gap: 100px;
+}
+
+
+  header > .logo {
+height: 100px;
+width: 200px;
+}
+
+header > .imagen {
+  height: 100px;
+  width: 150px;
+}
+
+header > nav {
+flex-grow: 1;
+display: flex;
+justify-content: end;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  gap: 50px;
+  width: 100%;
+  list-style: none;
+}
+
+.screen:focus {
+  color: black;
+}
+
+.screen:hover {
+  background-color: rgba(241, 80, 80, 0.725);
+}
+
+a {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+button {
+padding: 11px;
+display: flex;
+justify-content: start;
+background-color: rgb(255, 0, 0);
+color: white;
+font-weight: 600;
+border-radius: 5px;
+border: 1px solid black;
+}
+
+
+body {
+  background-image: url(https://res.cloudinary.com/dewp6r3va/image/upload/v1709567505/deporte%20perros/practicas%20the%20last%20of%20us/da083fa5e19458dd750aa8a6ea30ba10bac6f87074693df5_vqzpkb.avif);
+  background-size:contain ; 
+  background-repeat: no-repeat; 
+}
+
+#info {
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  display: flex;
+  align-items: end;
+  padding: 20px;
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.juego {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-left: 970px;
+  margin-bottom: 50px;
+  margin-top: -240px;
+width: 450px;
+
+}
+
+#comprar:focus {
+  color: black;
+
+}
+
+.league_gothic {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+h1 {
+  color: rgba(255, 85, 0, 0.921);
+  font-size: 200%;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.466) ;
+  padding: 1px;
+}
+
+p {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.536);
+  padding: 15px;
+  font-size: 18px;
+}
+
+#extra-content {
+  background-color:black; 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+
+
+.second-list {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 50px;
+  padding: 50px;
+  gap: 50px;
+}
+
+.special {
+  margin-top: 72px;
+}
+
+.secondary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
